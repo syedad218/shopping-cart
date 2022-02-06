@@ -1,13 +1,11 @@
-import { useState } from "react";
-import { useQuery } from "react-query";
 //tailwind styles
 import "../index.css";
-// component
+import ProductsView from "../Products";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-2xl font-light">Hello world!</h1>
+    <div>
+      <ProductsView />
     </div>
   );
 };
